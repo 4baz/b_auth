@@ -1,0 +1,129 @@
+@import url('../../fonts.googleapis.com/css24cb7.css?family=Lato:wght@300');
+/* Style the video: 100% width and height to cover the entire window */
+
+  
+  
+  
+  /* Style the button used to pause/play the video */
+  .centrecontainer{
+    position: relative;
+    width: 100%;
+    height: 240px;
+    top: calc(50% - 200px);
+    margin: 0px;
+    user-select: none;
+    pointer-events:all;
+
+
+  }
+
+
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    top: calc(20% - 200px);
+    margin: 0px;
+    user-select: none;
+    pointer-events:all;
+    
+}
+ .container {
+   
+    display: block;
+    height: inherit;
+    width: fit-content;
+    
+}
+
+.home-container img {
+    margin-left: 80em;
+    
+    position: absolute;
+}
+
+.home-container .text {
+    margin-left: 20em;
+  font-family: "Audiowide", sans-serif;
+    text-align: left;
+}
+
+.language {
+    right: 30px !important;
+    left: unset !important;
+    bottom: 20px;
+}
+
+.home-container h1 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 100px;
+    color: rgb(243, 243, 243);
+    position: relative;
+   
+    margin-top: 0px;
+    opacity: 0;
+    text-align: left;
+margin-right: 260px;
+    animation: home-text-enter 0.7s ease-out forwards;
+}
+
+.home-container h2 {
+    letter-spacing: 2px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 200;
+    text-align: left;
+    margin-top: -75px;
+    position: relative;
+    opacity: 0;
+
+    animation: home-text-enter 0.7s 0.5s ease-out forwards;
+}
+
+.home-container button{
+
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 0em;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border-radius: 12px;
+}
+
+
+.home-container a {
+    font-family: 'Lato';
+    font-weight: 200;
+    text-align: center;
+    margin-top: -75px;
+    position: relative;
+    opacity: 0;
+    cursor: default;
+    pointer-events: all;
+    animation: home-text-enter 0.7s 0.5s ease-out forwards;
+}
+
+
+
+
+@keyframes home-text-enter {
+    0% {
+        left: -20px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
